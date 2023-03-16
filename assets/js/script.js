@@ -153,8 +153,6 @@ window.addEventListener("mousemove", function (event) {
 
 })
 
-// LeafLet
-
 let a = -6.6004319
 let b = -39.0558757
 const map = L.map('map').setView([a, b], 16)

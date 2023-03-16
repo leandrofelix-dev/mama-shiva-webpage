@@ -151,14 +151,13 @@ window.addEventListener("mousemove", function (event) {
     parallaxItems[i].style.transform = `translate3d(${x}px, ${y}px, 0px)`;
   }
 
-});
-
+})
 
 // LeafLet
 
 let a = -6.6004319
 let b = -39.0558757
 const map = L.map('map').setView([a, b], 16)
-let alfa_icon_mobile = L.icon({ iconUrl: 'https://logodownload.org/wp-content/uploads/2018/01/google-maps-logo-1-1.png', iconSize: [30, 44] })
+let alfa_icon_mobile = L.icon({ iconUrl: 'http://localhost:5500/assets/images/marker.png', iconSize: [30, 44] })
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 18}).addTo(map)
 L.marker([a, b], {icon: alfa_icon_mobile}).addTo(map)

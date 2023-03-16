@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Eugusto";
+  src: url("../fonts/eugusto.otf") format("otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "CalistoMT";
+  src: url("../fonts/calisto-mt.ttf") format("ttf");
+  font-weight: normal;
+}
+
